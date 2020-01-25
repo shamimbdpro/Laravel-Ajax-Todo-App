@@ -1,6 +1,6 @@
 ## Laravel todo app
 
-## developer: MD SHAMIM HASAN
+## Developer: MD SHAMIM HASAN
 ## Contact Whatsapp: +8801794939992
 
 
