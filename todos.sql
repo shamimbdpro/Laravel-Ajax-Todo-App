@@ -27,11 +27,6 @@ CREATE TABLE `migrations` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(1,	'2014_10_12_000000_create_users_table',	1),
-(2,	'2014_10_12_100000_create_password_resets_table',	1),
-(3,	'2019_08_19_000000_create_failed_jobs_table',	1),
-(4,	'2020_01_21_181738_create_todolists_table',	1);
 
 DROP TABLE IF EXISTS `password_resets`;
 CREATE TABLE `password_resets` (
@@ -53,8 +48,7 @@ CREATE TABLE `todolists` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `todolists` (`id`, `title`, `status`, `created_at`, `updated_at`) VALUES
-(564,	'hello333333',	1,	'2020-01-25 13:02:09',	'2020-01-25 13:02:27'),
-(565,	'444444two',	1,	'2020-01-25 13:02:14',	'2020-01-25 13:02:30');
+(638,	'one',	1,	'2020-03-06 02:47:59',	'2020-03-06 02:47:59');
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
@@ -71,4 +65,4 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
--- 2020-01-25 19:04:18
+-- 2020-03-06 08:53:07
